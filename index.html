@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rey Rafael Costemiano">
+
+     <!--font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+ 
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/42503fd6c6.js" crossorigin="anonymous"></script>
+     
+    <!--css style-->
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                Da Coders<b>.</b>
+            </div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+               
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm a <span class="multiText" id="sample"></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas dignissimos laudantium cum maiores excepturi, sapiente, mollitia officia nesciunt commodi quisquam nihil et qui doloremque vitae in facilis explicabo quidem.</p>
+                <div class="btns">
+                    <button>download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="/image/des.png" id="splash">
+                    <img src="/image/profile.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+         
+        var typingEffect = new Typed('#sample', {
+            strings: ["coder", "web developer", "mobile developer", "tester"], 
+            loop:true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay:1500
+
+        })
+    </script>
+</body>
+</html>
